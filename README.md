@@ -75,7 +75,7 @@ The Smart Bookshelf Recommender is built entirely in Python, combining data proc
     <!-- Card 5: Pillow(PIL) -->
     <td width="33%" valign="top">
       <div align="left">
-        <img src="" width="40"/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKiXSiJAAA79xYxhMQ4dAPk5bpbnfA7EQ0A&s" width="40"/>
         <strong>Pillow(PIL)</strong><br>
         <p align="left"><sub>image processing</sub></p>
         <p align="left">Opens and preprocesses book cover images before feeding them into OCR.</p>
@@ -85,22 +85,13 @@ The Smart Bookshelf Recommender is built entirely in Python, combining data proc
       <!-- Card 6: Difflib -->
     <td width="33%" valign="top">
       <div align="left">
-        <img src="https://img.icons8.com/color/48/python--v1.png" width="40"/>
-        <strong>Python</strong><br>
+        <img src="https://miro.medium.com/1*KI5sThEkH74eEeODrZRjSQ.png" width="40"/>
+        <strong>Difflib</strong><br>
         <p align="left"><sub>fuzzy matching</sub></p>
         <p align="left">Matches the OCR-extracted title to the closest book title in the dataset.</p>
       </div>
     </td>
-    <!-- Card 7: Pickle -->
-    <td width="33%" valign="top">
-      <div align="left">
-        <img src="https://img.icons8.com/color/48/pandas.png" width="40"/>
-        <strong>Difflib</strong><br>
-        <p align="left"><sub>model export</sub></p>
-        <p align="left">Saves the similarity matrix as a .pkl file so it doesn't recompute every run.</p>
-      </div>
-    </td>
-   
+  
 </table>
 
 ## How it works
